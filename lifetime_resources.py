@@ -1,9 +1,9 @@
+#all resources that run for the lifetime of the application
+
 import sys
 import multiprocessing
 import concurrent.futures
 
-#all resources that run for the lifetime of the application
-#collected in one place for easy cleanup upon exit
 
 #function to set stdin for subprocesses
 def _set_stdin(fd):

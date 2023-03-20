@@ -17,4 +17,7 @@ async def cooltime(interval):
 	print(time.time())
 
 async def app():
-	await print_user_input("input da shit: ")
+	asyncio.gather(
+		print_user_input("input da shit: "),
+		cooltime(1)
+	)

@@ -2,6 +2,7 @@ import sys
 import asyncio
 
 from lifetime_resources import ui_executor
+from decorators import trampoline
 
 #only one async_input task should be run at once
 
