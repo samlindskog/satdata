@@ -1,7 +1,7 @@
 import asyncio
 
-import app
-import lifetime_resources
+from lib import lifetime_resources
+from lib import app
 
 def main():
 	try:
